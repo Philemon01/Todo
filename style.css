@@ -117,7 +117,7 @@ ul li span:hover{
 /* Responsive Styles */
 @media (max-width: 768px){
     .row{
-        width: 100%;
+        width: 70%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -126,4 +126,12 @@ ul li span:hover{
         border-radius: 30px;
         margin-bottom: 25px;
     }
+
+    input{
+    flex: 1;
+    border:none;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+}
 }
