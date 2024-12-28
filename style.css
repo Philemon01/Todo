@@ -145,5 +145,6 @@ ul li span:hover{
     font-size: 16px;
     cursor: pointer;
     border-radius: 40px;
+    margin-right: 30px;
 }
 }
