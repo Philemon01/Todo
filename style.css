@@ -25,6 +25,7 @@
 .todo-app h2{
     color: #002765;
     display: flex;
+    width: 100%;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -35,6 +36,7 @@
 }
 
 .row{
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -114,10 +116,11 @@ ul li span:hover{
 
 
 
+  
 /* Responsive Styles */
 @media (max-width: 768px){
     .row{
-        width: 100%;
+        width: 80%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -125,26 +128,7 @@ ul li span:hover{
         background: #edeef0;
         border-radius: 30px;
         margin-bottom: 25px;
-        position:relative
+        position:  absolute;
+        right: 50px;
     }
-
-    input{
-    flex: 1;
-    border:none;
-    outline: none;
-    background: transparent;
-    padding: 5px;
-    position:
-}
-
-    button{
-    border: none;
-    outline: none;
-    background: #ff5945;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 40px;
-    margin-right: 30px;
-}
 }
